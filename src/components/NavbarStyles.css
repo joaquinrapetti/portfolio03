@@ -1,0 +1,90 @@
+.navbar {
+  position: fixed;
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #1a1429;
+  color: #f8f8f8;
+  align-items: center;
+  padding: 1rem;
+  font-weight: 500;
+  padding: 0 10rem;
+}
+
+.logo {
+  position: absolute;
+  padding: 1rem 1rem;
+  left: 8rem;
+  top: 0;
+  max-width: 90px;
+  height: auto;
+}
+
+.nav-menu {
+  position: absolute;
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+
+.nav-menu a {
+  padding: 0 1rem;
+  text-decoration: none;
+}
+
+.btn-download {
+  margin-left: 5rem;
+  font-family: "Montserrat", sans-serif;
+  background-color: #d52d3f;
+  height: 45px;
+  width: 150px;
+  border-radius: 12px;
+  border: none;
+  color: #f8f8f8;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.hamburguer {
+  display: none;
+}
+
+@media screen and (max-width: 1240px) {
+  .hamburguer {
+    display: flex;
+  }
+
+  .nav-menu {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100vh;
+    transition: 0.35s;
+    z-index: -1;
+    background: #1a1429;
+  }
+
+  .nav-menu a {
+    font-size: 1.8rem;
+  }
+
+  .nav-menu li {
+    padding: 1rem 0;
+  }
+
+  .btn-download {
+    margin-top: 5rem;
+    margin-left: 0;
+    font-size: 1.8rem;
+    height: 90px;
+    width: 300px;
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+}

@@ -1,4 +1,15 @@
 * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,p,a {
+  color: var(--white);
+}
+
+body {
+  margin: 0;
   font-family: 'Montserrat', sans-serif;
   background-color: var(--secondary);
   color: var(--white);
@@ -10,9 +21,4 @@
   --white: #f8f8f8
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
