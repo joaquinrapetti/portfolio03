@@ -1,0 +1,42 @@
+.road-container {
+  height: 90vh;
+  background-color: rosybrown;
+  padding: 0 3rem;
+  color: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.road-intro {
+  width: 80%;
+  padding: 2rem;
+}
+
+.road-intro h1 {
+  padding: 1rem;
+}
+
+.road-timeline {
+  width: 85%;
+  height: 100%;
+  margin: 0 auto 5rem auto;
+  background-color: red;
+  display: flex;
+}
+
+@media screen and (max-width: 1240px) {
+    .road-container {
+        height: auto;
+    }
+
+  .road-timeline {
+    width: 80%;
+    height: 100%;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+  }
+}

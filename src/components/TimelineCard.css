@@ -1,0 +1,47 @@
+.road-card {
+  padding: 3rem 3rem;
+  background-color: green;
+  width: 33.3%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.road-text {
+  border-left: 2px solid #f8f8f8;
+  padding: 0 0 0 2rem;
+  margin: 0 0 0 1.3rem;
+}
+
+.road-card h3 {
+  width: 90%;
+  text-align: start;
+}
+
+.road-card p {
+  width: 90%;
+  text-align: start;
+}
+
+.road-year {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  width: 250px;
+  height: 55px;
+  background-color: red;
+}
+
+.road-year h3 {
+  text-align: center;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1240px) {
+  .road-card {
+    background-color: green;
+    width: 100%;
+    height: auto;
+  }
+}

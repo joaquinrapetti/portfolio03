@@ -1,6 +1,6 @@
 import React from "react";
 import { FaLinkedin, FaGithub, FaInstagram, FaArrowDown } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import { Link, Navigate } from "react-router-dom";
 import Picture from "../assets/Picture.png";
 import "./MainStyles.css";
 
@@ -28,7 +28,7 @@ const Main = () => {
           <h4>Say hi and meet me:</h4>
           <ul>
             <li>
-              <Link to="/">
+              <Link to="/https://www.linkedin.com/in/joaquin-rapetti-pozzoli/">
                 <FaLinkedin size={30} style={{ color: "#d52d3f" }} />
               </Link>
             </li>
